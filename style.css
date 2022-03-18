@@ -1,0 +1,51 @@
+a {
+    display: inline-block;
+    font-size:  2rem;
+    background-color: blue;
+    border-radius: 5px ;
+    color: white;
+    padding:  15px 25px ;
+    text-decoration:  none;
+    /* transition: all 5s  ease 0s ; */
+    /* transition-property: background-color, border-radius;
+    transition-duration:  0.8s, 2s  ;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+    transition: 0.5s ;
+
+
+}
+
+.btn:hover {
+    background-color: brown;
+    font-size:  2.1rem ;
+    color: chartreuse;
+    border-radius: 50px ;
+}
+
+.example {
+    width:  200px ;
+    height: 200px ;
+    border: 3px solid rgb(0, 0, 0);
+    border-top-color: blue;
+    border-bottom-color: red;
+    border-right-color: yellow;
+    /* transform: translate(50px 50px); */
+    /* transform: rotate(45deg) translate(100px 10px ); */
+    /* transform: rotate(45deg) translateX(100px) translateY(100px); */
+
+}
+
+ .example:hover {
+    transform: scale(1.2 , 1.2 );
+    margin-left: 40px ;
+}
+
+ .point {
+     width: 3px ;
+     height:  3px ;
+     background-color: black;
+     position:relative ;
+     top:  50% ;
+     left: 50% ;
+    }
